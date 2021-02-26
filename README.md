@@ -4,9 +4,9 @@
 
 ## Cryptocurrency Ticker
 
-- This app was built with react
-- This app is using [Coin Gecko API](https://www.coingecko.com/en/api "Named link title")
 - Cryptocurrency ticker to keep you up to date on all current crypto currencies
+- This app was built with react
+- This app is using the [Coin Gecko API](https://www.coingecko.com/en/api "Named link title")
 
 <br>
 <img src="./public/favicon.ico" alt="drawing" width="200" height="200"/>
