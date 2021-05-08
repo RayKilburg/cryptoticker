@@ -12,7 +12,7 @@ const Coin = ({ name, image, symbol, price, volume, priceChange, marketcap }) =>
                 </div>
                 <div className="coin-data">
                     <p className="coin-price">${price}</p>
-                    <p className="coin-volume">${volume.toLocaleString()}</p>
+                    <p className="coin-volume">Vol: ${volume.toLocaleString()}</p>
                     {/* red green logic */}
                     {priceChange < 0 ? (
                         <p className="coin-percent red">{priceChange.toFixed(2)}%</p>
