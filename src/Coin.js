@@ -23,9 +23,9 @@ const Coin = ({
           <p className="coin-volume">Vol: ${volume.toLocaleString()}</p>
           {/* red green logic */}
           {priceChange < 0 ? (
-            <p className="coin-percent red">{priceChange}% </p>
+            <p className="coin-percent red">{priceChange.toFixed(2)}% </p>
           ) : (
-            <p className="coin-percent green">{priceChange}% </p>
+            <p className="coin-percent green">{priceChange.toFixed(2)}% </p>
           )}
           <p className="coin-market">Mkt Cap: ${marketcap.toLocaleString()}</p>
         </div>
